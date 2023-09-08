@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes mymove {
+    from {left: 0%;}
+    to {left: 50%;}
+}
+
+.box{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    font-family: Tahoma;
+    font-size: 40px;
+}
+
+.box:not(.f):nth-child(odd) {
+    background-color: #dfe1e7;
+    /*text-align: center;*/
+    border-top: 1px solid #687291;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.box:not(.f):nth-child(even){
+    /* background-color: #eeeff2; */
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    /* text-align: center;*/
+    border-top: 1px solid #687291;
+}
+
+.f.box{
+    border: 4px solid #000;
+    background-color: #687291;
+    vertical-align: center;
+}
+
+div.f .text{
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    padding-top: 25%;
+    vertical-align: middle;
+}
+
+.text{
+    font-size: 40px;
+}
+
+.text:not(.f){
+    margin-block-start: 0%;
+    font-size: 40px;
+    text-align: center;
+
+}
+
