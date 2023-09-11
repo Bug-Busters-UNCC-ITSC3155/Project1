@@ -2,9 +2,7 @@ div.box{
     width: 100px;
     height: 150px;
     background-color: #eeeff2;
-    border-style: dotted;
-    border-width: 10px;
-    border-color: #D0D0FF;
+    border-left: 10px dotted #D0D0FF;
     padding-left: 10px;
     padding-right: 10px;
     display: inline-block;
