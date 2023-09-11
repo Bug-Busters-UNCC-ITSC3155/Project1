@@ -17,14 +17,12 @@
     background-color: #dfe1e7;
     /*text-align: center;*/
     border-top: 1px solid #687291;
-    
 }
 
 .box:not(.f):nth-child(even){
     background-color: #eeeff2;
    /* text-align: center;*/
     border-top: 1px solid #687291;
-    
 }
 
 .f.box{
@@ -40,10 +38,7 @@ div.f .text{
     vertical-align: middle;
 }
 
- .text{
-    font-size: 40px;
- }
- .text:not(.f){
+.text:not(.f){
     margin-block-start: 0%;
     font-size: 40px;
     text-align: center;
